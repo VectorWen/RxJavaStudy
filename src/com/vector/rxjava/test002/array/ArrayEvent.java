@@ -15,7 +15,7 @@ public class ArrayEvent {
 	 * 发出一个数组事件，我们就把下面的events 发出去
 	 */
 	
-	public static final String[] events= {"Java","RxJava","Android","Netty","EventBus","Otto"};
+	private static final String[] events= {"Java","RxJava","Android","Netty","EventBus","Otto"};
 	
 	public static void main(String[] args) {
 		

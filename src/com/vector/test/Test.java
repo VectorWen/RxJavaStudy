@@ -40,7 +40,6 @@ public class Test {
 			@Override
 			public void onFailure(Call call, IOException e) {
 				e.printStackTrace();
-				okHttpClient.dispatcher();
 			}
 		});
 	}
